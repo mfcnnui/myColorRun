@@ -1,0 +1,43 @@
+.gameStartDiv{
+    width: 1200px;
+    height: 650px;
+    /*background: #eeeeee;*/
+    margin: auto;
+    border:1px solid;
+}
+.logoDiv{
+    width: 756px;
+    height: 121px;
+    background: url("../img/main/logo.png");
+    margin: auto;
+}
+.leadDiv{
+    width: 109px;
+    height: 192px;
+    background: url("../img/main/man.gif");
+    margin: auto;
+}
+.startBut{
+    width: 308px;
+    height: 168px;
+    float: left;
+    cursor: pointer;
+}
+.podiumDiv{
+    width: 63px;
+    height: 54px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.startDiv{
+
+}
+.soundDiv{
+    width: 43px;
+    height: 45px;
+    float: left;
+    margin-top: 60px;
+    cursor: pointer;
+}

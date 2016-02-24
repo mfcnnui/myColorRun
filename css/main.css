@@ -1,0 +1,175 @@
+.mainDiv{
+    width: 1200px;
+    height: 650px;
+    position: absolute;
+    left: 47px;
+    top: 10px;
+    border:1px solid;
+    z-index: 2;
+}
+.mainCanvas{
+    position: absolute;
+    left: 47px;
+    top: 10px;
+    z-index: 1;
+}
+.suspendDiv{
+    width: 1200px;
+    height: 650px;
+    background: black;
+    position: absolute;
+    opacity: .8;
+    top: 9px;
+    left: 50px;
+    display: none;
+    z-index: 3;
+}
+.backMainBut{
+    float: left;
+    margin-left: 15px;
+}
+.restartBut{
+    float: left;
+}
+.goOnBut{
+    float: left;
+    margin-top: 8px;
+    margin-left: 35px;
+
+}
+.buttonDiv{
+    width: 800px;
+    height: 260px;
+    margin: auto;
+    margin-top: 200px;
+    opacity: .8;
+}
+
+.pauseButImg{
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+}
+.gameManDiv{
+    width: 120px;
+    height: 200px;
+    /*border: 1px solid;*/
+    position: absolute;
+    left: 210px;
+    top: 250px;
+}
+.gameIngDiv{
+    width: 1200px;
+    height: 300px;
+    /*border: 1px solid;*/
+    float: left;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.newDiv{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-right: -300px;
+    /*background: darkgreen;*/
+}
+.newCanvas{
+    background: darkred;
+
+}
+
+.newCtrlDiv1{
+    width: 450px;
+    height: 50px;
+    /*background-color: black;*/
+    margin-top: 120px;
+    float: left;
+
+}
+.newCtrlDiv2{
+    width: 450px;
+    height: 50px;
+    /*background-color: red;*/
+    float: left;
+    margin-top: 120px;
+}
+.newCtrlDiv3{
+    width: 300px;
+    height: 50px;
+    /*background-color: blue;*/
+    margin-top: 120px;
+    float: left;
+
+}
+.newCtrlDiv4{
+    width: 300px;
+    height: 50px;
+    /*background-color: red;*/
+    float: left;
+    margin-top: 120px;
+}
+.newCtrlDiv5{
+    width: 300px;
+    height: 50px;
+    /*background-color: green;*/
+    float: left;
+    margin-top: 120px;
+}
+#score{
+    float: left;
+    font-family: font1;
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    left: 560px;
+}
+@font-face{
+    font-family: font1;
+    src:url("../mid/font.TTF");
+}
+.gameOverDiv{
+    width: 1200px;
+    height: 650px;
+    position: absolute;
+    left: 47px;
+    top: 10px;
+    z-index: 4;
+    display: none;
+    background: darkmagenta;
+    opacity: .7;
+}
+.gameOverImg{
+    width:615px;
+    height: 300px;
+    z-index: 4;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+}
+.gameOverImg>input {
+    width: 200px;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: font1;
+    border-radius: 5px;
+}
+.overBack{
+    float: left;
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    z-index: 5;
+}
+.overReset{
+    float: right;
+    position: absolute;
+    top: 300px;
+    right: 270px;
+    z-index: 5;
+}
+.gameListDiv{
+
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <canvas class="mainCanvas" id="mainCanvas" width="1200px;" height="650px;">
+
+    </canvas>
+    <div class="mainDiv" id="mainDiv">
+        <span id="score">12312</span>
+        <img src="img/main/puse.png" class="pauseButImg" id="pauseButImg"/>
+
+        <div class="gameIngDiv" id="gameIng">
+            <div class="gameManDiv">
+                <img src="img/main/man.gif"/>
+            </div>
+        </div>
+
+    </div>
+    <div class="suspendDiv" id="suspendDiv">
+        <div class="buttonDiv">
+            <a href="gameStart.html" title="返回开始页面">
+                <img class="backMainBut" src="img/dialog/pause/home.png" width="260px;" height="240px;"/>
+            </a>
+            <a href="main.html" title="重新开始游戏">
+                <img class="restartBut" src="img/dialog/pause/refresh.png"/>
+            </a>
+            <a title="继续游戏" id="goOnBut">
+                <img class="goOnBut" src="img/dialog/pause/right.png"/>
+            </a>
+        </div>
+    </div>
+    <div class="gameOverDiv" id="gameOverDiv">
+        <a href="gameStart.html" class="overBack">
+            <img src="img/dialog/pause/home.png" width="260px;" height="240px;"/>
+        </a>
+
+        <div class="gameOverImg" id="gameOverImg">
+            <img src="img/dialog/gameover.png" />
+            <input id="gameManName" type="text" value="" placeholder="Please Enter Your Name!"/>
+            <input id="goListBut" type="button" value="Enter the list of" placeholder="Please Enter Your Name!"/>
+        </div>
+
+        <a href="main.html" class="overReset" id="overReset" >
+            <img src="img/dialog/pause/refresh.png"/>
+        </a>
+
+    </div>
+    <div class="gameListDiv" id="gameLis">
+
+    </div>
+
+
+    <audio src="mid/bg.mp3" autoplay loop="loop" id="pauseAudio"></audio>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
